@@ -6,4 +6,9 @@ pool:
 
 
 steps:
-- script: echo 'job'
+- script: |
+  const hello = {
+    mom() {
+      console.log("hello mom")
+    }
+  }
