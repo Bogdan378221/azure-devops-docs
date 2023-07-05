@@ -1,1 +1,5 @@
-name: $(mess)
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo 'hello'
